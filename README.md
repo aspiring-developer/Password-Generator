@@ -4,7 +4,7 @@
  * With a little knowledge gained from the class and by searching online, I started working on Javascript coding.
  * Having no experience making Javascript code that work, I started typing my codes by declaring variables first.
  * I declared variables that hold Uppercase, Lowercase, Numbers, and Special Characters.
- * I went further typing codes that I could produce without searching online or asking anyone.
+ * I went further typing codes that I could produce unyil without searching online or asking with anyone.
  
  **Real Challenge:**
  
@@ -12,6 +12,6 @@
  
  --- I searched how they exactly work with a real project like this homework; studied how the syntax is organised; tried to understand why the particular block of codes behaving this way and that way. 
  
- --- I spent a good amount of time to this homework assignment. At some point I was thinking the same thing that most new learners probably think, but I decided to tackle rather than stepping back. Now, I atleast have a working code-file that makes me feel good!
+ --- I spent a good amount of time to do this homework assignment. At some point I was thinking the same thing that most new learners probably think, but I decided to tackle rather than stepping back. Now, atleast I have a working code-file that makes me feel good!
  
- --- Projects like this seem challenging (and they are!!!) for starter-student, they give good opportunities to learn more. That's all I have to say about this homework project. 
+ --- Projects like this seem challenging (and they are!!!) for starter-student, they also give good opportunities to learn more. That's all I have to say about this homework project. 
