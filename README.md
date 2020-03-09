@@ -8,6 +8,10 @@
  
  **Real Challenge:**
  
- --- Variable declaration, confirm/promt window method, and getting DOM-element reference from HTML page to the Javascript page were the only things that I was confident with, so when for-loop, function and event-listener needed to add, I was clueless as what to do. I had no choice other than completing this homework in time, so Google came to my rescue!
+ --- Variable declaration, confirm/promt window method, and getting DOM-element reference from HTML page to the Javascript page were the only things that I was confident with, so when for-loop, function and event-listener needed to be added, I was clueless as what to do. I had no choice other than completing this homework in time, so Google came to my rescue!
  
  --- I searched how they exactly work with a real project like this homework; studied how the syntax is organised; tried to understand why the particular block of codes behaving this way and that way. 
+ 
+ --- I spent a good amount of time to this homework assignment. At some point I was thinking the same thing that most new learners probably think, but I decided to tackle rather than stepping back. Now, I atleast have a working code-file that makes me feel good!
+ 
+ --- Projects like this seem challenging (and they are!!!) for starter-student, they give good opportunities to learn more. That's all I have to say about this homework project. 
