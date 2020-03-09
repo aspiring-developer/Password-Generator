@@ -1,7 +1,7 @@
 body {
   font-family: 'Fira Sans', sans-serif;
   background-color: rgb(158, 158, 168);
-
+  margin: 0 auto;
 }
 .main-wrapper-container {
   margin: 0 auto;
@@ -25,6 +25,7 @@ h1 {
 }
 #characterCounter {
   text-align: center;
+  max-width: 100%;
 }
 p {
   margin-bottom: 2rem;
@@ -59,7 +60,9 @@ margin-top: 1rem;
     background-color: #eaf7d3;
     color: #9b0b83;
     text-align: center;
-  
+    display: block;
+    width:20rem;
+    margin: 0 auto;
     }
    .top-container-column .bottomPara {
       font-size: .7rem;
