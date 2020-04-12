@@ -1,4 +1,4 @@
-# PASSWORD GENERATOR:  3rd-Homework-SS
+# Password Generator
  * I started this homework by creating HTML, CSS and JS files.
  * I marked up HTML layout of the password generator page and applied css to it.
  * With a little knowledge gained from the class and by searching online, I started working on Javascript coding.
@@ -15,3 +15,4 @@
  --- I spent a good amount of time to do this homework assignment. At some point I was thinking the same thing that most new learners probably think, but I decided to tackle rather than stepping back. Now, atleast I have a working code-file that makes me feel good!
  
  --- Projects like this seem challenging (and they are!!!) for starter-student, they also give good opportunities to learn more. That's all I have to say about this homework project. 
+The Link to the Deployed page: https://ssh1sharma.github.io/Password-Generator/
