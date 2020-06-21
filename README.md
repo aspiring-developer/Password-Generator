@@ -1,17 +1,27 @@
-# PASSWORD GENERATOR:  3rd-Homework-SS
- * I started this homework by creating HTML, CSS and JS files.
- * I marked up HTML layout of the password generator page and applied css to it.
- * With a little knowledge gained from the class and by searching online, I started working on Javascript coding.
- * Having no experience making Javascript code that work, I started typing my codes by declaring variables first.
- * I declared variables that hold Uppercase, Lowercase, Numbers, and Special Characters.
- * I went further typing codes that I could produce unyil without searching online or asking with anyone.
- 
- **Real Challenge:**
- 
- --- Variable declaration, confirm/promt window method, and getting DOM-element reference from HTML page to the Javascript page were the only things that I was confident with, so when for-loop, function and event-listener needed to be added, I was clueless as what to do. I had no choice other than completing this homework in time, so Google came to my rescue!
- 
- --- I searched how they exactly work with a real project like this homework; studied how the syntax is organised; tried to understand why the particular block of codes behaving this way and that way. 
- 
- --- I spent a good amount of time to do this homework assignment. At some point I was thinking the same thing that most new learners probably think, but I decided to tackle rather than stepping back. Now, atleast I have a working code-file that makes me feel good!
- 
- --- Projects like this seem challenging (and they are!!!) for starter-student, they also give good opportunities to learn more. That's all I have to say about this homework project. 
+## PASSWORD GENERATOR
+- An html-validated password generator app. It randomly creates a password based on letters, numbers and special characters.
+
+### App's Screenshot:
+
+![Password Generator App Screenshot Image](https://github.com/ssh1sharma/3rd-Homework-SS/blob/master/password-generator-screenshot.jpg)
+
+
+### Installation and Usage:
+
+- This app has already been deployed to GitHub Pages, so users can visit the link provided below and use it directly on any browser.
+- Follow few prompts and enter the app interface. Type a number as how long do you want your password to be. Note:  minimum 8 and maximum 128 characters allowed.
+- The uppercase letters choice is already done by default, so add Lowercase, Numbers and Special Characters. Click "Generate Password" button to have your password display in the box above. Copy the password to use in your any online account.
+  
+  
+### Technology:
+
+- Plain HTML, CSS and JavScript; Git, GitHub, GitHub Pages. VS Code Editor software.
+
+### License:
+
+- MIT
+
+### Deployed App, GitHub Repo Links:
+
+- GitHub Pages: https://ssh1sharma.github.io/Password-Generator/
+- GitHub Repo: https://github.com/ssh1sharma/Password-Generator
