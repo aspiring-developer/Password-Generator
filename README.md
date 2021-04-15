@@ -3,7 +3,7 @@
 
 ### App's Screenshot:
 
-![Password Generator App Screenshot Image](https://github.com/ssh1sharma/3rd-Homework-SS/blob/master/password-generator-screenshot.jpg)
+![Password Generator App Screenshot Image](https://github.com/ssh1sharma/3rd-Homework-SS/blob/master/password-generator-app-screenshot.jpg)
 
 
 ### Installation and Usage:

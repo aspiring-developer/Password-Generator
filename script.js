@@ -43,7 +43,7 @@ let checkedCharacters = '';
   }
   randomizeCharacter(checkedCharacters);
 }
-
+//****************************************** */
 
 
 
