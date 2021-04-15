@@ -51,7 +51,7 @@ margin-top: 1rem;
   background-color: #1885a0;
   color: #f6f3ec;
   text-transform: uppercase;
-  
+
   }
   #passwordResult {
     padding: 1rem;
@@ -61,7 +61,8 @@ margin-top: 1rem;
     color: #9b0b83;
     text-align: center;
     display: block;
-    width:20rem;
+    /*width:20rem;*/
+    width:90%;
     margin: 0 auto;
     }
    .top-container-column .bottomPara {

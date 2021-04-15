@@ -1,35 +1,51 @@
-    // Asking user to confirm some prompts
-    var confirm1 = confirm("If you want to use lowercase, numbers or special characters, please select appropriate button on the password generator page.");
-    var confirm2 = confirm("Uppercase letters are selected by default");
+const characterCounterEl = document.querySelector('#characterCounter');
+const lowerCheckboxEl = document.querySelector('#lowerCheckbox');
+const upperCheckboxEl = document.querySelector('#upperCheckbox');
+const numberCheckboxEl = document.querySelector('#numberCheckbox');
+const specialCheckboxEl = document.querySelector('#specialCheckbox');
+const passwordResultEl = document.querySelector('#passwordResult');
+const passwordButtonEl = document.querySelector('#passwordButton');
+const eachCheckBoxEl = document.querySelectorAll('.eachCheckBox');
 
-     // Declaring variables to hold available characters
-    var uppercaseDefault = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var lowercaseChoose = "abcdefghijklmnopqrstuvwxyz";
-    var numberChoose = "0123456789";
-    var specialChoose = "<+>!@#$%^&(-)[=]{*}";
+const lowerCaseCharacter = "abcdefghijklmnopqrstuvwxyz";
+const copyCharacter = lowerCaseCharacter;
+const upperCaseCharacter = copyCharacter.toUpperCase();
+const specialCharacter = "!#$%&?@_";
+const numberCharacter = "0123456789";
 
-// Connecting DOM elements with Javascript
-    var selectedCharacterCount = document.getElementById("characterCounter");
-    var lowerChecked = document.getElementById("lowerCheckbox");
-    var numberChecked = document.getElementById("numberCheckbox");
-    var specialChecked = document.getElementById("specialCheckbox");
-    var generateButton = document.getElementById("passwordButton");
-    var displayingPassword = document.getElementById("passwordResult");
+passwordButtonEl.addEventListener('click', generatePassword);
+function generatePassword() {
+let checkedCharacters = '';
+  // Checking if the character option is checked or not
+  if (!lowerCheckboxEl.checked && !upperCheckboxEl.checked && !numberCheckboxEl.checked && !specialCheckboxEl.checked) {
+    alert("You must check at least one character option!");
+  }
+  // Collecting selected character option
+  if (lowerCheckboxEl.checked) { checkedCharacters += (lowerCaseCharacter); }
+  if (upperCheckboxEl.checked) { checkedCharacters += (upperCaseCharacter); }
+  if (numberCheckboxEl.checked) { checkedCharacters += (numberCharacter); }
+  if (specialCheckboxEl.checked) { checkedCharacters += (specialCharacter); }
 
-// Adding event listener to the password generating button
-    generateButton.addEventListener("click", function (e) {
-      var characters = uppercaseDefault;
-      (lowerChecked.checked) ? characters += lowercaseChoose : "";
-      (numberChecked.checked) ? characters += numberChoose : "";
-      (specialChecked.checked) ? characters += specialChoose : "";
-      displayingPassword.value = password(selectedCharacterCount.value, characters);
-    }); 
+  console.log(checkedCharacters);
+  console.log(checkedCharacters.length);
 
-// Looping the password characters and randomized them to publish
-    function password(length, characters) {
-      var actualPassword = "";
-      for (var i = 0; i < length; i++) {
-        actualPassword += characters.charAt(Math.floor(Math.random() * characters.length));
-      }
-      return actualPassword;
+  // Randomising selected characters
+  let randomizedCharacters = [];
+  function randomizeCharacter(random) {
+    for (let i = 0; i < characterCounterEl.value; i++) {
+      randomizedCharacters.push(checkedCharacters.charAt(Math.floor(Math.random() * checkedCharacters.length)));
     }
+    console.log(randomizedCharacters);
+    let joinedRandomizedCharacters = randomizedCharacters.join('');
+    console.log(joinedRandomizedCharacters);
+    passwordResultEl.value = joinedRandomizedCharacters;
+    return joinedRandomizedCharacters;
+  }
+  randomizeCharacter(checkedCharacters);
+}
+
+
+
+
+
+

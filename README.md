@@ -1,4 +1,4 @@
-## PASSWORD GENERATOR
+## Password Generator: Vanilla JavaScript
 - An html-validated password generator app. It randomly creates a password based on letters, numbers and special characters.
 
 ### App's Screenshot:

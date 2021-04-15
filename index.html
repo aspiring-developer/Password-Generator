@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- ########## REQUIRED META TAGS ########## -->
   <meta charset="utf-8">
@@ -23,17 +24,24 @@
         <div class="top-container-row">
           <div class="col top-container-column">
             <h1> PASSWORD GENERATOR </h1>
-            <p> Set character count. How many do you want? &nbsp; &nbsp; <input type="number" id="characterCounter" value="20" min="8" max="128"> &nbsp; &nbsp; Minimum 8 to maximum 128 allowed. </p>
-            <p> Check each box to add lowercase, numbers or special characters. <br>
-            <span class="checkboxStyle"> <input type="checkbox" id="lowerCheckbox" /> Lowercase &nbsp; &nbsp;
-              &nbsp; <input type="checkbox" id="numberCheckbox" /> Number &nbsp; &nbsp;
-              &nbsp; <input type="checkbox" id="specialCheckbox" /> Special Character </span>
-              <br> <em><strong>Note: By default, the uppercase letters are selected. </em> </strong></p>
-            <p> Your Password is displayed in the field below. <input type="text" id="passwordResult" size="80" /> </p> <br>
+            <p> Set character count. How many do you want? &nbsp; &nbsp; <input type="number" id="characterCounter" value="8" min="8" max="128"> &nbsp; &nbsp; Minimum 8 to maximum 128 allowed. </p>
+            <p> Check each box to add uppercase, lowercase, numbers or special characters. <br>
+              <span class="checkboxStyle checkBoxes">
+                <input type="checkbox" id="lowerCheckbox" class="eachCheckBox" /> Lowercase &nbsp; &nbsp;
+                &nbsp;
+                <input type="checkbox" id="upperCheckbox" class="eachCheckBox"  /> Uppercase &nbsp; &nbsp;
+                &nbsp;
+                <input type="checkbox" id="numberCheckbox" class="eachCheckBox"  /> Number &nbsp; &nbsp;
+                &nbsp;
+                <input type="checkbox" id="specialCheckbox" class="eachCheckBox"  /> Special Character </span>
+              <br>
+            </p>
+            <p> Your Password will be displayed in the field below. <input type="text" id="passwordResult" size="160" /> </p> <br>
             <p> Click the Generate Password button to have your randomized password. </p>
             <p> <button id="passwordButton">Generate Password</button> <br> </p>
             <hr>
-            <p class="bottomPara">Password Generator &bull; Shiva Sharma &bull; 2020</p>
+            <p class="bottomPara">Password Generator &bull; Shiva Sharma &bull; <span id="yearNow" class="bottomPara" style="color:#666; font-weight: normal"> </span>
+            </p>
           </div> <!-- .top-container-column ends -->
         </div> <!-- .top-container-row ends -->
       </div> <!-- .top-section-container ends -->
@@ -47,7 +55,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <script src="script.js"> </script>
-     </div> <!-- .main-wrapper-container ends -->
+    <script> function currentYear() {
+        let year = new Date();
+        let yearField = document.getElementById('yearNow').innerHTML = year.getFullYear();
+      }
+      currentYear();
+    </script>
+  </div> <!-- .main-wrapper-container ends -->
 </body>
 
 </html>
